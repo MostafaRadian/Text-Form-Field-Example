@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/formfieldcomponenet.dart';
-import 'package:untitled/homepage.dart';
 import 'package:untitled/signupmodel.dart';
 
 class TextFieldTest extends StatelessWidget {
@@ -41,7 +40,7 @@ class TextFieldTest extends StatelessWidget {
           ),
         ),
         body: Center(
-          child: Container(
+          child: SizedBox(
             width: 500,
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,

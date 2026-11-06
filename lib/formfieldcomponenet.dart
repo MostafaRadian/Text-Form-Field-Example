@@ -3,7 +3,7 @@ import 'package:untitled/signupmodel.dart';
 
 class MyTextFormFeild extends StatelessWidget {
   final SignUpData data;
-  MyTextFormFeild({required this.data, super.key});
+  const MyTextFormFeild({required this.data, super.key});
 
   @override
   Widget build(BuildContext context) {

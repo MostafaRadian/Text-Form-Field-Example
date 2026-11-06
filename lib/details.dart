@@ -18,7 +18,7 @@ class Details extends StatelessWidget {
           color: const Color.fromARGB(255, 206, 186, 150),
           child: ListTile(
             leading: CircleAvatar(
-              backgroundColor: Colors.deepPurpleAccent.withOpacity(0.1),
+              backgroundColor: Colors.deepPurpleAccent.withValues(alpha: 0.1),
               child: Icon(product.icon, color: Colors.deepPurple),
             ),
             title: Text(product.name),
